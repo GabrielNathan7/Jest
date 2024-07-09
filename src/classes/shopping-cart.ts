@@ -1,5 +1,5 @@
 import { CartItem } from './interfaces/cart-item';
-import { Discount } from './interfaces/discount';
+import { Discount } from './discount';
 import { IShoppingCart } from './interfaces/shopping-cart-protocol';
 
 export class ShoppingCart implements IShoppingCart {

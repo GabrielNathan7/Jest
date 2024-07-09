@@ -5,7 +5,7 @@ import { Order } from './classes/order';
 import { Persistency } from './services/persistency';
 import { Product } from './classes/product';
 import { ShoppingCart } from './classes/shopping-cart';
-import { NoDiscount } from './classes/interfaces/discount';
+import { NoDiscount } from './classes/discount';
 import { IndividualCustomer } from './classes/customer';
 import { IMessaging } from './services/interfaces/messaging-protocol';
 

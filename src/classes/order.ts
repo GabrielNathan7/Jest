@@ -28,6 +28,7 @@ export class Order {
   checkout(): void {
     if (this._cart.isEmpty()) {
       console.log('Your cart is empty!');
+      return;
     }
 
     this._orderStatus = 'closed';
